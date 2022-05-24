@@ -1,0 +1,81 @@
+
+* {
+	margin: 0;
+	/* padding : 0; */
+}
+
+body {
+	background-color: lightgreen;
+}
+
+h2 {}
+
+.button {
+	margin: 1em;
+	border: 0.25em solid green;
+	padding: 1em;
+	border-radius: 1em;	
+
+	width: 20em;
+}
+
+.message {
+	font-size: 200%;
+	margin: 1em auto;
+	width: 20em;
+	padding: 1em;
+	background-color: lightcoral;
+	border-radius: 1em;	
+}
+
+.price {
+	padding : 1em;
+	border : 0.25em solid darkcyan;
+	border-radius: 1em;	
+}
+
+.sections {
+	display: flex;
+	
+	padding: 1em;
+}
+
+.section {
+	flex : 1;
+	padding: 0.25em;
+	display : flex;
+	flex-direction: column;
+	background-color: dodgerblue;
+	border-radius: 0.25em;
+	/* padding: 1em; */
+	margin : 0.2em;
+	/* border: 1px solid; */
+}
+
+.block {
+	flex :1;
+	/* border: 1px solid; */
+}
+
+.button {
+	border: 0.25em solid lightcoral;
+	padding :1em;
+	background-color: lightcoral;
+	font-family: inherit;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: lightgray;
+}
+
+.income {
+	display: flex;
+}
+
+.income_block {
+	flex: 1;
+	padding-left: 1em;
+	background-color:dodgerblue;
+}

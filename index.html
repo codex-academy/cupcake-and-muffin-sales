@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubblegum Sans">
+	<style>
+		body {
+			font-family: 'Bubblegum Sans', serif;
+			font-size: 32px;
+		}
+
+		table {
+			border: 0.15em solid;
+			border-radius: 0.25em;
+			padding: 0.25em;
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		td {
+			text-align: center;
+			border: 1px solid lightcyan;
+			
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div>
+
+		<h1>Cupcakes & muffin sale</h1>
+
+		<div class="income" >
+
+
+
+			<div class="income_block">
+				Muffin : <span>0.00</span>
+			</div>
+			<div class="income_block">
+				Cup cake : <span>0.00</span>
+			</div>
+		</div>
+
+		<div class="sections">
+			<div class="section">
+				<h2>Muffins</h2>
+				<div class="block" >
+					<img src="./img/muffin.png" alt="" width="150px">
+				</div>
+
+				<div class="block" >
+					<label for="bran">Bran</label>
+					<input type="radio" name="cupcake_flavour" value="bran" id="bran">
+					<label for="seeded">Seeded</label>
+					<input type="radio" name="cupcake_flavour" value="seeded" id="seeded">
+					<label for="carrot">Carrot</label>
+					<input type="radio" name="cupcake_flavour" value="carrot" id="carrot">
+					<button class="button" >
+						<img src="./img/muffin.png" alt="" width="30px">
+						Sell muffin</button>	
+				</div>
+
+				<div class="block" >
+					<table>
+						<tr>
+							<th>
+								Flavour
+							</th>
+							<th>
+								Qty
+							</th>
+							<th>
+								Income
+							</th>
+						</tr>
+						<tr>
+							<td>Bran</td>
+							<td>0</td>
+							<td>0.00</td>
+						</tr>
+						<tr>
+							<td>Seeded</td>
+							<td>0</td>
+							<td>0.00</td>
+						</tr>
+						<tr>
+							<td>Carrot</td>
+							<td>0</td>
+							<td>0.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+
+			<div class="section">
+				<h2>Cupcakes</h2>
+
+				<div class="block" >
+					<img src="./img/cupcake.png" alt="" width="150px">
+				</div>
+
+				<div class="block">
+					<label for="vanilla">Vanilla</label>
+					<input type="radio" name="cupcake_flavour" value="vanilla" id="vanilla">
+					<label for="chocolate">Chocolate</label>
+					<input type="radio" name="cupcake_flavour" value="chocolate" id="chocolate">
+					<label for="carrot">Carrot</label>
+					<input type="radio" name="cupcake_flavour" value="carrot" id="carrot">
+					<button class="button" >
+						<img src="./img/cupcake.png" alt="" width="30px">
+						Sell cupcake</button>	
+
+				</div>
+				<div class="block" >
+					<table>
+						<tr>
+							<th>
+								Flavour
+							</th>
+							<th>
+								Qty
+							</th>
+							<th>
+								Income
+							</th>
+						</tr>
+						<tr>
+							<td>Vanilla</td>
+							<td>0</td>
+							<td>0.00</td>
+						</tr>
+						<tr>
+							<td>Chocolate</td>
+							<td>0</td>
+							<td>0.00</td>
+						</tr>
+						<tr>
+							<td>Carrot</td>
+							<td>0</td>
+							<td>0.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
